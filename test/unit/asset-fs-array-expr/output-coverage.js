@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 81:
+/***/ 317:
 /***/ ((module) => {
 
 "use strict";
@@ -9,7 +9,7 @@ module.exports = require("child_process");
 
 /***/ }),
 
-/***/ 17:
+/***/ 928:
 /***/ ((module) => {
 
 "use strict";
@@ -49,14 +49,10 @@ module.exports = require("path");
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-const { spawn } = __webpack_require__(81);
-const { join } = __webpack_require__(17);
+const { spawn } = __webpack_require__(317);
+const { join } = __webpack_require__(928);
 
 const child = spawn(gifsicle, ['--colors', '256', __webpack_require__.ab + "asset1.txt"]);
-
-})();
 
 module.exports = __webpack_exports__;
 /******/ })()

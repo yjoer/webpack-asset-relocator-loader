@@ -1,13 +1,15 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	var __webpack_modules__ = ([
-/* 0 */
+/******/ 	var __webpack_modules__ = ({
+
+/***/ 230:
 /***/ ((module) => {
 
 module.exports = 'dep';
 
 
 /***/ })
-/******/ 	]);
+
+/******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -39,8 +41,6 @@ module.exports = 'dep';
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
 const reaction = (name) => {
 	const res = require(name);
 	res.name = name.split('/').pop();
@@ -53,14 +53,12 @@ const reaction = (name) => {
 
 const reactions = {
 	repository: {
-		publicized: reaction$$mod(__webpack_require__(0), './dep')
+		publicized: reaction$$mod(__webpack_require__(230), './dep')
 	}
 };
 
 
 
-
-})();
 
 module.exports = __webpack_exports__;
 /******/ })()

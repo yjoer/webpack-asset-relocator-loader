@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 569:
+/***/ 986:
 /***/ ((module) => {
 
 module.exports = 'connection';
@@ -41,13 +41,9 @@ module.exports = 'connection';
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
 const driver = global.MONGOOSE_DRIVER_PATH || './dir';
 
-const Connection = __webpack_require__(569);
-})();
-
+const Connection = __webpack_require__(986);
 module.exports = __webpack_exports__;
 /******/ })()
 ;

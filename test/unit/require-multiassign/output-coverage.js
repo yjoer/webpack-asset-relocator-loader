@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 984:
+/***/ 227:
 /***/ ((module) => {
 
 module.exports = 'b';
@@ -9,7 +9,7 @@ module.exports = 'b';
 
 /***/ }),
 
-/***/ 282:
+/***/ 853:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var m = './a.js';
@@ -17,7 +17,7 @@ var m = './a.js';
 if (global.something)
   m = './b.js';
 
-module.exports = __webpack_require__(984);
+module.exports = __webpack_require__(227);
 
 
 /***/ })
@@ -57,7 +57,7 @@ module.exports = __webpack_require__(984);
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module used 'module' so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__(282);
+/******/ 	var __webpack_exports__ = __webpack_require__(853);
 /******/ 	module.exports = __webpack_exports__;
 /******/ 	
 /******/ })()

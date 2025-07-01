@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 17:
+/***/ 928:
 /***/ ((module) => {
 
 module.exports = require("path");
@@ -41,10 +41,8 @@ module.exports = require("path");
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
 
-const path = __webpack_require__(17);
+const path = __webpack_require__(928);
 // Load Google's well-known proto files that aren't exposed by Protobuf.js.
 {
     // Protobuf.js exposes: any, duration, empty, field_mask, struct, timestamp,
@@ -61,8 +59,6 @@ const path = __webpack_require__(17);
     }
 }
 //# sourceMappingURL=index.js.map
-})();
-
 module.exports = __webpack_exports__;
 /******/ })()
 ;

@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 147:
+/***/ 896:
 /***/ ((module) => {
 
 "use strict";
@@ -41,9 +41,7 @@ module.exports = require("fs");
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-const fs = __webpack_require__(147);
+const fs = __webpack_require__(896);
 
 fs.readFile('./asset1.txt')
 
@@ -52,8 +50,6 @@ fs.readFile(__webpack_require__.ab + "asset2.txt")
 const _basePath = __webpack_require__.ab + "fs-emission";
 const asset3 = 'asset3.txt';
 fs.readFileSync(__webpack_require__.ab + "asset3.txt", 'utf8');
-
-})();
 
 module.exports = __webpack_exports__;
 /******/ })()

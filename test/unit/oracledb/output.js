@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 71:
+/***/ 517:
 /***/ ((module) => {
 
 module.exports = 'oracledb';
@@ -40,8 +40,6 @@ module.exports = 'oracledb';
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
 var binaryLocations = [
   '../' + nodbUtil.RELEASE_DIR + '/' + nodbUtil.BINARY_FILE,  // pre-built binary
   '../' + nodbUtil.RELEASE_DIR + '/' + 'oracledb.node',       // binary built from source
@@ -50,7 +48,7 @@ var binaryLocations = [
 
 for (var i = 0; i < binaryLocations.length; i++) {
   try {
-    oracledbCLib = __webpack_require__(71);
+    oracledbCLib = __webpack_require__(517);
     break;
   } catch(err) {
     if (err.code !== 'MODULE_NOT_FOUND' || i == binaryLocations.length - 1) {
@@ -65,8 +63,6 @@ for (var i = 0; i < binaryLocations.length; i++) {
     }
   }
 }
-
-})();
 
 module.exports = __webpack_exports__;
 /******/ })()

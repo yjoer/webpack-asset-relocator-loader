@@ -1,15 +1,31 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 605:
+/***/ 857:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("os");
+
+/***/ }),
+
+/***/ 896:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("fs");
+
+/***/ }),
+
+/***/ 924:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
 
 
-var os = __webpack_require__(37);
-var fs = __webpack_require__(147);
-var path = __webpack_require__(17);
+var os = __webpack_require__(857);
+var fs = __webpack_require__(896);
+var path = __webpack_require__(928);
 
 var verifyFile;
 
@@ -49,23 +65,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 147:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("fs");
-
-/***/ }),
-
-/***/ 37:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("os");
-
-/***/ }),
-
-/***/ 17:
+/***/ 928:
 /***/ ((module) => {
 
 "use strict";
@@ -105,12 +105,8 @@ module.exports = require("path");
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-let { path } = __webpack_require__(605);
+let { path } = __webpack_require__(924);
 console.log(path);
-})();
-
 module.exports = __webpack_exports__;
 /******/ })()
 ;

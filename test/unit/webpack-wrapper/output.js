@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 147:
+/***/ 896:
 /***/ ((module) => {
 
 "use strict";
@@ -9,7 +9,7 @@ module.exports = require("fs");
 
 /***/ }),
 
-/***/ 17:
+/***/ 928:
 /***/ ((module) => {
 
 "use strict";
@@ -49,8 +49,6 @@ module.exports = require("path");
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
 !(function(e) {
   var t = {};
   function r(n) {
@@ -106,19 +104,17 @@ var __webpack_exports__ = {};
     r((r.s = 2));
 })([
   function(e, t) {
-    e.exports = __webpack_require__(147);
+    e.exports = __webpack_require__(896);
   },
   function(e, t) {
-    e.exports = __webpack_require__(17);
+    e.exports = __webpack_require__(928);
   },
   function(e, t, r) {
-    const n = __webpack_require__(147),
-      o = __webpack_require__(17);
+    const n = __webpack_require__(896),
+      o = __webpack_require__(928);
     console.log(n.readFileSync(__webpack_require__.ab + "asset.txt"));
   }
 ]);
-})();
-
 module.exports = __webpack_exports__;
 /******/ })()
 ;

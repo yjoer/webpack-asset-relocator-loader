@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 246:
+/***/ 428:
 /***/ ((module) => {
 
 module.exports = 'dep';
@@ -41,10 +41,8 @@ module.exports = 'dep';
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
 // analyzable:
-__webpack_require__(246);
+__webpack_require__(428);
 
 // non-analyzable:
 var s = {
@@ -52,8 +50,6 @@ var s = {
 };
 s.require('escaped');
 require(escaped);
-
-})();
 
 module.exports = __webpack_exports__;
 /******/ })()
