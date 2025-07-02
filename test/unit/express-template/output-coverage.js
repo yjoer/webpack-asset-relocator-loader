@@ -1,23 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 594:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("express");
-
-/***/ }),
-
-/***/ 750:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("pug");
-
-/***/ }),
-
-/***/ 896:
+/***/ 294:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 const express = __webpack_require__(594);
@@ -34,6 +18,22 @@ app.get("*", (req, res) => {
 
 module.exports = app;
 
+
+/***/ }),
+
+/***/ 594:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("express");
+
+/***/ }),
+
+/***/ 750:
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("pug");
 
 /***/ }),
 
@@ -80,7 +80,7 @@ module.exports = require("path");
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module is referenced by other modules so it can't be inlined
-/******/ 	var __webpack_exports__ = __webpack_require__(896);
+/******/ 	var __webpack_exports__ = __webpack_require__(294);
 /******/ 	module.exports = __webpack_exports__;
 /******/ 	
 /******/ })()
