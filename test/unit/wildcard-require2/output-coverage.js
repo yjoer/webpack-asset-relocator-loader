@@ -1,7 +1,7 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 180:
+/***/ 382:
 /***/ ((module) => {
 
 module.exports = 'module3';
@@ -9,7 +9,7 @@ module.exports = 'module3';
 
 /***/ }),
 
-/***/ 499:
+/***/ 781:
 /***/ ((module) => {
 
 module.exports = 'module2';
@@ -17,7 +17,7 @@ module.exports = 'module2';
 
 /***/ }),
 
-/***/ 790:
+/***/ 916:
 /***/ ((module) => {
 
 module.exports = 'module1';
@@ -57,9 +57,9 @@ module.exports = 'module1';
 /************************************************************************/
 var __webpack_exports__ = {};
 function __ncc_wildcard$0 (arg) {
-  if (arg === "path1") return __webpack_require__(790);
-  else if (arg === "path2") return __webpack_require__(499);
-  else if (arg === "path3") return __webpack_require__(180);
+  if (arg === "path1") return __webpack_require__(916);
+  else if (arg === "path2") return __webpack_require__(781);
+  else if (arg === "path3") return __webpack_require__(382);
 }
 const num = Math.ceil(Math.random() * 3, 0);
 
